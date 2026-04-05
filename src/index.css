@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-charcoal: #1A1A1A;
+  --color-pure-white: #FFFFFF;
+  --color-gold: #D4AF37;
+
+  --font-inter: "Inter", "Montserrat", sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-pure-white);
+    color: var(--color-charcoal);
+    font-family: var(--font-inter);
+    margin: 0;
+    padding: 0;
+  }
+}
